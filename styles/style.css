@@ -17,7 +17,8 @@ html{
 .header-container{
     display: flex;
     justify-content: flex-end;
-    height: 8vh;
+    height: 5vh;
+    padding: 2px;
     width: 100%;
     min-width: 320px;
     margin-block-end: 10px;
