@@ -58,3 +58,44 @@ html{
     font-weight: 400;
     line-height: 2.1rem;
 }
+
+.team-container{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 320px;
+    align-items: flex-start;
+    gap: 16px 6px;
+}
+
+.team__subcontainer{
+    display: grid;
+    grid-template-columns: minmax(140px, 240px) auto;
+    grid-auto-rows: auto;
+}
+
+.team--image{
+    min-width: 140px;
+    width: 75%;
+    max-width: 240px;
+}
+
+.team--title{
+    font-size: 1rem;
+    line-height: 1.3rem;
+    font-weight: 400;
+    font-family: 'PT Serif', serif;
+    text-transform: uppercase;
+    writing-mode: vertical-lr;
+}
+
+.team--name{
+    margin-block-start: 10px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 2.1rem;
+}
+
+.team__subcontainer--down{
+    align-self: flex-end;
+}
